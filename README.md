@@ -1,10 +1,11 @@
 # EXPERIMENT – 2: Evaluation of Prompting Tools Across Diverse AI Platforms: ChatGPT, Claude, Bard, Cohere Command, and Meta
-REGISTER NUMBER: 212222080004
+### Register No.: 212222080004
+### Date: 07.03.2025
 
-# Aim:
+## Aim:
 To systematically evaluate and compare the performance, user experience, and response quality of multiple AI platforms (ChatGPT, Claude, Perplexity) across different prompting strategies — namely Zero-Shot, Few-Shot, Chain-of-Thought, Role-Based, and ReAct prompting — within a focused mechanical engineering use case (Soft Robotics). The goal is to analyze how each AI tool interprets and summarizes a given technical paragraph (150 words) under various prompting techniques. Each AI's response will be individually assessed for quality, accuracy, and depth using a grading system, with separate notes for each model. The experiment also aims to capture actual model outputs to provide context for the evaluations, ensuring that comparisons are traceable, detailed, and meaningful.
 
-# 📊 Grading Key:
+### 📊 Grading Key:
 •	A = Excellent
 •	B+ = Very Good
 •	B = Good
@@ -12,10 +13,10 @@ To systematically evaluate and compare the performance, user experience, and res
 •	D = Poor
 •	F = Inadequate
 
-# Use Case: Text Summarization
+## Use Case: Text Summarization
 “Soft robotics is an emerging field in mechanical engineering that focuses on creating robots constructed from highly flexible and compliant materials, such as silicones, polymers, and smart textiles. Unlike traditional rigid robots, soft robots are designed to safely interact with humans and adapt to unpredictable environments. They often mimic biological organisms, offering advantages like enhanced dexterity, safe physical interaction, and the ability to squeeze through confined spaces. Recent advancements include artificial muscles powered by pneumatics, hydraulics, or electroactive polymers, enabling more lifelike and versatile movement. Soft robotic grippers are now widely used in delicate object handling, such as food processing and medical surgery. Researchers are also exploring untethered soft robots that can crawl, swim, or even heal themselves after damage. The combination of material innovation, bioinspired design, and intelligent control systems positions soft robotics as a transformative force across healthcare, wearable technology, aerospace, and beyond.”
 
-# 1.	Prompt Type: Zero-Shot Prompt
+## 1.	Prompt Type: Zero-Shot Prompt
 Question: "Summarize the paragraph about soft robotics."
 🔹 ChatGPT: "Soft robotics focuses on building flexible, adaptable robots from materials like silicones and smart textiles. These robots mimic biological organisms, enhancing safety, dexterity, and adaptability. Innovations include artificial muscles, soft grippers for delicate tasks, and self-healing robots. Applications span healthcare, aerospace, and wearable technology."
 
@@ -23,7 +24,7 @@ Question: "Summarize the paragraph about soft robotics."
 
 🔹 Perplexity: "Soft robotics is advancing mechanical engineering by using flexible materials like polymers and textiles to create adaptive robots. They mimic biological systems, making them ideal for interacting with humans and delicate objects. Key innovations include artificial muscles and untethered robots that can self-heal, impacting fields like healthcare and wearable tech."
 
-# Analysis Notes (Zero-shot):
+## Analysis Notes (Zero-shot):
 
 ![image alt](https://github.com/Ajay-Joshua-M/EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization/blob/6838159edd3de2ca9925dc17858d9286455a3d9d/images/Screenshot%202025-05-25%20224424.png)
 
@@ -32,7 +33,7 @@ ChatGPT	A	A	A	Very concise, correctly picked innovations from the paragraph with
 Claude	A-	A-	B+	Accurate but slightly generic wording compared to the paragraph.
 Perplexity	B+	A-	B	Captured major points but less organized and a little repetitive.
 
-# 2.	Prompt Type: Few-Shot Prompt
+## 2.	Prompt Type: Few-Shot Prompt
 Question: The paragraph given for text summarization will be summarized as the example give below.
 Example:
 Summarize this paragraph:
@@ -46,7 +47,7 @@ Summary:
 🔹 Perplexity: 
 "Soft robotics is a mechanical engineering innovation using flexible materials to build adaptive, bioinspired robots. Developments like artificial muscles, self-healing designs, and soft grippers enable new applications in healthcare, wearables, and delicate manufacturing tasks."
 
-# Analysis Notes (Few-shot):
+## Analysis Notes (Few-shot):
 
 ![image alt](https://github.com/Ajay-Joshua-M/EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization/blob/58aa90b35e6ddfdacd74e05b0f27e16f4a8525fd/images/Screenshot%202025-05-25%20224856.png)
 
@@ -55,7 +56,7 @@ ChatGPT	A	A	A	Comprehensive summary, includes the material, application, and tec
 Claude	B+	A	B+	Correct examples but less detail in explaining the relationship between them.
 Perplexity	B	B+	B	Includes all elements but the connections feel slightly forced.
 
-# 3.	Prompt Type: Chain-of-Thought Prompt
+## 3.	Prompt Type: Chain-of-Thought Prompt
 
 Question: Follow the below given instructions 
 Prompt:
@@ -76,11 +77,11 @@ Prompt:
 •	Innovations: Soft grippers, artificial muscles, self-healing designs.
 •	Summary: "Soft robotics leverages flexible materials to build robots that mimic living systems, enabling safer human interaction and expanding applications in healthcare and manufacturing."
 
-# Analysis Notes (Chain-of-Thought):
+## Analysis Notes (Chain-of-Thought):
 
 ![image alt](https://github.com/Ajay-Joshua-M/EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization/blob/f743dec38ab2bedff079e7cf64473accd48be764/images/Screenshot%202025-05-25%20225206.png)
 
-# 4.	Prompt Type: Role-based Prompt
+## 4.	Prompt Type: Role-based Prompt
 Question: Follow the below given instructions 
 Prompt:
 "You are a Mechanical Engineering Professor specializing in Robotics. Summarize the key developments in the field of soft robotics, highlighting the materials, biological inspirations, and innovations mentioned."
@@ -92,11 +93,11 @@ Prompt:
 🔹 Perplexity: 
 "Soft robotics, employing flexible polymers and smart textiles, is advancing mechanical systems that mimic biological motions. Key developments include artificial muscles, self-healing robots, and untethered systems, creating new possibilities in healthcare, wearable devices, and delicate manufacturing processes." 
 
-# Analysis Notes (Role-based):
+## Analysis Notes (Role-based):
 
 ![image alt](https://github.com/Ajay-Joshua-M/EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization/blob/8d02971b10eb60eb169bb7b3d22f1a702b1cefa5/images/Screenshot%202025-05-25%20230205.png)
 
-# 5.	Prompt Type: ReAct Prompting
+## 5.	Prompt Type: ReAct Prompting
 Question: Follow the below given instructions
  Prompt:
 "First, think about what materials are required for soft robotics. Then reason about how these materials help in mimicking biological systems. Identify recent innovations mentioned. Finally, summarize everything clearly. Think step-by-step."
@@ -122,7 +123,7 @@ Final Summary: Soft robotics uses flexible materials to create machines mimickin
 
  ![image alt](https://github.com/Ajay-Joshua-M/EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization/blob/dbab1fed6c2e593a3ffd150b94f85c87dd040594/images/Screenshot%202025-05-25%20230505.png)
 
-# 6.	Prompt Type: Instruction-following Prompt
+## 6.	Prompt Type: Instruction-following Prompt
 Question: Follow the below given instructions
 Prompt:
 "Strictly list 5 key developments in soft robotics based on the paragraph. Do not elaborate."
@@ -148,11 +149,11 @@ Prompt:
 5.	Adoption in wearable tech and healthcare
 
 
-# Analysis (Instruction-following):
+## Analysis (Instruction-following):
 
 ![image alt](https://github.com/Ajay-Joshua-M/EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization/blob/27653fe479e6061ef31bb979332b91dd39dfe18e/images/Screenshot%202025-05-25%20230630.png)
 
-# 7.Prompt Type: Context-enriched Prompt
+## 7.Prompt Type: Context-enriched Prompt
 Question: Follow the below given instruction
 Prompt:
 "Soft robotics is a rapidly evolving subfield of mechanical engineering, inspired by biological organisms and requiring materials that offer flexibility and resilience. Considering this context, summarize the latest material innovations and their impact on robotic capabilities."
@@ -167,7 +168,7 @@ Prompt:
 "Soft robotics leverages flexible polymers and fabrics inspired by biological systems to enhance movement. New developments like artificial muscles and self-healing robots have made robots more resilient and suitable for industries such as healthcare and aerospace."
 
 
-# Analysis (Context-enriched):
+## Analysis (Context-enriched):
 
 ![image alt](https://github.com/Ajay-Joshua-M/EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization/blob/336065f5a55e16d0feaab5cd06ccaef09f146bb8/images/Screenshot%202025-05-25%20230810.png)
 
@@ -186,7 +187,7 @@ o	Third Place: Perplexity often delivered adequate responses but showed inconsis
 o	Limitations: The responses from Perplexity lacked in-depth technical reasoning and often missed out on connecting key points that were necessary for a complete answer.
 
 
-# Prompt Type Performance Comparison:
+## Prompt Type Performance Comparison:
 
 ![image alt](https://github.com/Ajay-Joshua-M/EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization/blob/ed8ddcd88af99254f57977b84e38e21e1a052b3f/images/Screenshot%202025-05-25%20230946.png)
 
@@ -194,12 +195,12 @@ o	Limitations: The responses from Perplexity lacked in-depth technical reasoning
 •	Claude performed well, earning A- grades in most categories, but it occasionally lacked the necessary depth in complex technical explanations.
 •	Perplexity scored the lowest across the board, with B grades, indicating its struggles in handling detailed, technical content while maintaining coherence in responses.
 
-# Overall Observations:
+## Overall Observations:
 •	ChatGPT demonstrated the best overall consistency in both technical depth and clarity, making it the ideal model for handling complex, technical topics like soft robotics.
 •	Claude provided competent responses, though sometimes falling short of ChatGPT in depth, especially for technical topics that required a more nuanced understanding of engineering concepts.
 •	Perplexity, while offering helpful answers, struggled the most with complexity and coherence, making it less suitable for tasks that require high-level technical reasoning or detailed explanations.
 
-# Conclusion:
+## Conclusion:
 The experiment successfully illustrated the comparative strengths and weaknesses of different AI models when responding to prompts of varying complexity. ChatGPT stood out as the top performer, followed by Claude, with Perplexity lagging behind in technical tasks. The findings underscore the importance of choosing the right AI model based on the type of question and the level of technical complexity involved.
 For applications in mechanical engineering, specifically related to soft robotics, ChatGPT would be the most reliable tool due to its ability to provide clear, accurate, and detailed responses, while Claude could be a useful backup for less complex tasks. Perplexity, despite its utility in simpler contexts, would need further refinement for technical engineering tasks.
 
