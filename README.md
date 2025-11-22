@@ -1,5 +1,5 @@
 # EXPERIMENT – 2: Evaluation of Prompting Tools Across Diverse AI Platforms: ChatGPT, Claude, Bard, Cohere Command, and Meta
-### Register No.: 212222080004
+### Register No.: 212223060264
 ### Date: 07.03.2025
 
 ## Aim:
@@ -203,8 +203,6 @@ o	Limitations: The responses from Perplexity lacked in-depth technical reasoning
 ## Conclusion:
 The experiment successfully illustrated the comparative strengths and weaknesses of different AI models when responding to prompts of varying complexity. ChatGPT stood out as the top performer, followed by Claude, with Perplexity lagging behind in technical tasks. The findings underscore the importance of choosing the right AI model based on the type of question and the level of technical complexity involved.
 For applications in mechanical engineering, specifically related to soft robotics, ChatGPT would be the most reliable tool due to its ability to provide clear, accurate, and detailed responses, while Claude could be a useful backup for less complex tasks. Perplexity, despite its utility in simpler contexts, would need further refinement for technical engineering tasks.
-
-
 
 
 
